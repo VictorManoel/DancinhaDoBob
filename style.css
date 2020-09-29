@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: blueviolet;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  width: 75%;
+  height: 100vh;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+#container > img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+#container > h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 4em;
+  margin: 0;
+}
+
+#container > h2 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
